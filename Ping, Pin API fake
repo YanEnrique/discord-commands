@@ -1,0 +1,7 @@
+$nomention
+$title[Pong!]
+$description[
+🔥Latência: `$ping` MS
+⚡Ping APIs: `$random[41;410]`]
+$footer[Executado por $username]$addTimestamp
+$color[0300FF]
