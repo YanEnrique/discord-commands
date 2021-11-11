@@ -1,0 +1,9 @@
+$nomention
+$argsCheck[>1;❌ **Especifique um número.**]
+$onlyIf[$isNumber[$message[1]]==true;❌ **O tempo deve estar em números.**]
+$slowmode[$channelID;$message[1]]
+$onlyAdmin[❌ **Você não tem permição para usar este comando.!**]
+$title[Slowmode]
+$description[O slowmode foi configurado em $message[1] segundos]
+$color[0300ff]
+$footer[Por $username]
