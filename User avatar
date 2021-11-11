@@ -1,0 +1,8 @@
+$​nomention
+$​author[$​username#$​discriminator[$​mentioned[1]]]
+$​title[Avatar]
+$image[$userAvatar[$mentioned[<]]?size=2048]
+$​argsCheck[>1;Use: B/avatar <@user>]
+$​blackListServers[553861765398790145;]
+$​suppressErrors
+$​authorIcon[$​userAvatar[$​mentioned[1]]]
