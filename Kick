@@ -1,0 +1,9 @@
+$nomention $kickMention
+$description[
+
+|<@$mentioned[1]> foi kickado pelo $username
+
+|**Razão:** $noMentionMessage
+]
+$onlyIf[!=$mentioned[1];Mencione o usuário!]$onlyAdmin[**Somente moderadores podem usar este comando.**]
+$suppressErrors[:x: | Meu cargo é menor do que o cargo do usuário mencionado!, por favor arraste o meu cargo para cima do cargo do usuario mencionado!]
