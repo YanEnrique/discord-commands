@@ -1,0 +1,6 @@
+$deletecommand
+$description[
+$message]
+$nomention
+$color[#64FE2E]
+$onlyPerms[ban;kick; managemessages;Você não tem permissão para executar este comando.]
