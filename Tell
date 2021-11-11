@@ -1,0 +1,6 @@
+$nomention
+$deletecommand
+$onlyIf[$getUserVar[celular]>=1;Você não tem um celular!]
+$author[$username] $authorIcon[$authorAvatar]
+$description[$message]
+$onlyIf[!=$mentioned[1];Mencione o usuário!]
