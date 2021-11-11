@@ -1,0 +1,6 @@
+$nomention
+$onlyPerms[managechannels; Você precisa da permissão `gerenciar canais` para usar esse comando!]
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$color[0300FF]
+$deletecommand
+$description[✅ Canal trancado com sucesso!]
