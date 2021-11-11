@@ -1,0 +1,5 @@
+$nomention
+$onlyPerms[managechannels; Você precisa da permissão `gerenciar canais` para usar esse comando!]
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$color[0300FF]
+$description[✅ Canal destrancado com sucesso!]
