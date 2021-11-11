@@ -1,0 +1,24 @@
+$deletecommand
+$nomention
+$color[#0300ff]
+$dm[]
+$onlyPerms[ban; kick; manageroles;❌**Você não tem permissão pra executar esse comando.**]
+$authorIcon[https://cdn.discordapp.com/emojis/591660081460936719.gif?size=2048]
+$author[Você recebeu um aviso!]
+$serverInfo[
+**📡 Olá <@$authorID> Tenho Um Aviso Pra Você!
+
+┃Mensagem Do Servidor:
+
+---> {name} <---
+
+┃Aviso Do:
+<@$authorID>
+
+┃Motivo:**
+$noMentionMessage ]
+
+$image[https://cdn.discordapp.com/attachments/585490635142987776/596036823986470922/tumblr_pgyomuLXuM1xfwvjko1_500.gif]
+
+$footer[ Katzin €DÏTS™]
+$footerIcon[https://cdn.discordapp.com/attachments/573130852146348052/595723300974493710/JPEG_20190702_161317.jpg]
