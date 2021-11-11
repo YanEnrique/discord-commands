@@ -1,0 +1,10 @@
+  
+$ban[$noMentionMessage]
+$description[$ban[$noMentionMessage]
+
+ | Usuário Banido com sucesso
+ 
+ | Razão: $noMentionMessage
+ ]
+ $onlyPerms[ban;kick; managemessages;Você não tem permissão para executar este comando.]
+$suppressErrors[:x: | Meu cargo é menor do que o cargo do usuário mencionado!, por favor arraste o meu cargo para cima do cargo do usuario mencionado!]$onlyIf[!=$mentioned[1];Mencione o usuário!]
