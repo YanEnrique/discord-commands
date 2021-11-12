@@ -1,0 +1,18 @@
+$nomention
+$title[🗯️ __INFORMAÇÕES DO CANAL__🆕]
+$description[
+- 🆔 Id do Canal : `$channelID`
+
+- 💬 Nome do Canal : **$channelName[$channelID]**
+
+- 🔞 NSFW? 💬: **$isNSFW[$channelID]**
+
+- 🎇 Tópico do Canal 💬: $channelTopic[$channelID]
+
+- ⁉ Tipo de Canal : **$channelType[$channelID]**]
+
+$footer[ $username#$discriminator[$authorID]]
+$footerIcon[$authorAvatar]
+$color[0300FF]
+$thumbnail[$serverIcon]
+$c[Esta função '$channelType[$channelID]' Retorna com o tipo de uso do canal atual. Por exemplo, um canal de texto (💬), canal de notícias (📢), etc.]
