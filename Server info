@@ -1,0 +1,39 @@
+$nomention
+$color[0300FF]
+$title[**Informações do servidor**]
+$thumbnail[$serverIcon]
+$serverInfo[
+
+**📃Nome do Servidor:** {name}
+
+🔐Dono: {owner}
+
+🔖ID do Servidor: {ID}
+
+📊Região: $serverRegion
+
+🎉Verificação: $serverVerificationLvl
+
+✴Membros Totais: $membersCount
+🔛Membros Online: $membersCount[online]
+◽Membros Offline: $membersCount[offline]
+⚪Membros Invisíveis: $membersCount[invisible]
+♦Membros Não pertube: $membersCount[dnd]
+🔶Membros Ausente:** $membersCount[idle]
+
+📢Canais: $channelCount
+
+**📝Cargos totais:** $roleCount
+
+📄Cargos: 
+
+$roleNames
+
+**📨Convite Do Servidor:**
+$getServerInvite
+
+😎Emojis customizados:
+{emoji}
+]
+$footer[$username]
+$footerIcon[$authorAvatar]
