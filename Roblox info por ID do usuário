@@ -1,0 +1,15 @@
+$nomention
+$authorIcon[https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Player_icon.png]
+$httpGet[https://users.roblox.com/v1/users/$message]
+$title[$httpResult[name] Info]
+$addField[Nome do usuário:;$httpResult[name]]
+$addField[Descrinção:;$httpResult[description]]
+$addField[Dia criado:;$httpResult[created]]
+$addField[ID:;$httpResult[id]]
+$addField[Display Name:;$httpResult[displayName]]
+$addField[Usuário está banido?:;$httpResult[isBanned]]
+$color[FF0000]
+$author[Feito por Katen_Yan ID do roblox: 1980275788] 
+$addTimestamp
+$suppressErrors[:x: **Você tem que colocar o ID do usuário para ver o __perfil__ dele!**]
+$argsCheck[>1;Digite somente o ID do usuário!] 
