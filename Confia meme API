@@ -1,0 +1,9 @@
+Requer BDScript Unstable
+
+$nomention
+$color[0300FF]
+$title[CONFIA]
+$image[https://micalvig.sirv.com/819194915656957962.png?h=400&text.0.text=$replaceText[$message; ;%20;-1]&text.0.position.gravity=north&text.0.size=60&text.0.color=ffffff&text.0.background.color=dffd04&text.0.outline.color=ddff00&text.0.outline.blur=54]
+$argsCheck[>1;Você precisa colocar uma mensagem depois do comando!]
+$footer[pedido por $username]
+$addTimestamp
